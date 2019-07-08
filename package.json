@@ -1,0 +1,32 @@
+{
+  "name": "com.expressapp.learning",
+  "version": "1.0.0",
+  "description": "This is an ExpressJs app created for the purpose of learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemanth759/ExpressJsApp.git"
+  },
+  "author": "Hemanth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hemanth759/ExpressJsApp/issues"
+  },
+  "homepage": "https://github.com/Hemanth759/ExpressJsApp#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.6.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
