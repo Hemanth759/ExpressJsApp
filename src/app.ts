@@ -13,6 +13,7 @@ const PORT: string = process.env.PORT || '5000';
 // init Middlewre
 app.use(Logger);
 
+// Set API routes
 app.use('/api/members/', router);
 
 // Set static folder
