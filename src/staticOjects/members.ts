@@ -1,4 +1,4 @@
-const members: Array<Object> = [
+const members = [
   {
     id: 1,
     name: 'John Doe',
@@ -18,5 +18,6 @@ const members: Array<Object> = [
     status: 'active',
   },
 ];
+
 
 export { members as Members };
