@@ -21,4 +21,9 @@ router.get('/:id', (req: Request, res: Response) => {
   }
 });
 
+// create member
+router.post('/', (req: Request, res: Response) => {
+  res.end(req.body);
+})
+
 export { router };

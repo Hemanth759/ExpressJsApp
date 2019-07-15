@@ -11,7 +11,9 @@ const app: Application = express();
 const PORT: string = process.env.PORT || '5000';
 
 // init Middlewre
-app.use(Logger);
+// app.use(Logger);
+app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
 
 // Set API routes
 app.use('/api/members/', router);
